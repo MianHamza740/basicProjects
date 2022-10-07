@@ -55,7 +55,7 @@ export default class buttun extends Component {
     return(
         <View style={{flex:1,justifyContent:'center',alignItems:'center'}}>
  
-
+<Text>hello</Text>
           <View style={{width:width,justifyContent:'space-between',alignItems:'center',flexDirection:'row',paddingLeft:22,paddingRight:26,paddingVertical:22,position:'absolute',top:0}}>
               <Icon onPress={() => { this.backAction() }} name="left" type="AntDesign" style={{ color: "black", fontSize: 21 }} />
           </View>
